@@ -108,7 +108,7 @@ export function TransactionsPage() {
           <>
             <div className="mb-3 flex flex-wrap items-center gap-x-6 gap-y-1 px-1 text-sm text-slate-500" aria-label="Summary">
               <span><strong className="text-slate-900">{data.summary.count}</strong> transactions</span>
-              <span>Total: <strong className="text-slate-900">{formatINR(data.summary.total)}</strong></span>
+              <span>Total Shown: <strong className="text-slate-900">{formatINR(data.summary.total)}</strong></span>
             </div>
             <Card flush className="overflow-hidden">
               <TransactionTable
